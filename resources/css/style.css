@@ -1,4 +1,3 @@
-
 body  {
   font-family: "Lato", sans-serif;
   font-size: 16px;
@@ -121,6 +120,7 @@ header .content-mobile {
   background-color: #d8d8d8;
 }
 
+/* Left Column */
 .sign-up-left {
   padding: 2rem 1.5rem;
   width: 60%;
@@ -131,6 +131,7 @@ header .content-mobile {
   width: 100%;
 }
 
+/* Right Column */
 .sign-up-right {
   padding: 1.5rem 0 1.5rem 1.375rem;
   width: 40%;
@@ -170,16 +171,19 @@ header .content-mobile {
   display: none;
 }
 
+/* Mobile Screen */
 @media only screen and (max-width: 760px) {
-  #sign-up-section {
+#sign-up-section {
     flex-direction: column;
 }
 
+/* Left Column */
 .sign-up-left {
   width: 100%;
   padding: 0;
 }
 
+/* Right Column */
 .sign-up-right {
   width: 100%;
   padding: 0;
@@ -211,6 +215,7 @@ header .content-mobile {
   background-color: #f3f5f5;
 }
 
+/* Left Column */
 .info-section-left {
   padding: 2rem 1.5rem;
   width: 60%;
@@ -219,11 +224,6 @@ header .content-mobile {
 .info-section-left img {
   display: block;
   width: 100%;
-}
-
-.info-section-right {
-  padding: 1rem 0;
-  width: 40%;
 }
 
 .info-section-left .content h2 {
@@ -236,6 +236,12 @@ header .content-mobile {
 
 .info-section-left .content p {
   padding: 0;
+}
+
+/* Right Column */
+.info-section-right {
+  padding: 1rem 0;
+  width: 40%;
 }
 
 .info-section-right .info {
@@ -276,16 +282,19 @@ header .content-mobile {
   display: none;
 }
 
+/* Mobile Screen */
 @media only screen and (max-width: 760px) {
 
 #info-section .content-desktop {
   display: none;
 }
 
+/* Left Column*/
 .info-section-left {
   display: none;
 }
 
+/* Right Column*/
 .info-section-right {
   width: 100%;
   padding: 0;
@@ -366,6 +375,7 @@ header .content-mobile {
   display: none;
 }
 
+/* Mobile Screen */
 @media only screen and (max-width: 760px) {
 
 #course-section {
@@ -375,6 +385,7 @@ header .content-mobile {
   border-bottom: 1px solid #d8d8d8;
   }
 
+/* Center */
 .content-center {
   padding-bottom: 1rem;
 }
@@ -409,6 +420,7 @@ header .content-mobile {
   display: flex;
 }
 
+/* Left Column*/
 .thesis-container-left {
   padding: 2rem 1.5rem;
   width: 60%;
@@ -419,13 +431,14 @@ header .content-mobile {
   width: 100%;
 }
 
+.thesis-container-left .content h3 {
+  padding: 1.5rem 0 0.5rem 0;
+}
+
+/* Right Column*/
 .thesis-container-right {
   padding: 2rem 0;
   width: 40%;
-}
-
-.thesis-container-left .content h3 {
-  padding: 1.5rem 0 0.5rem 0;
 }
 
 .thesis-container-right .thesis {
@@ -457,8 +470,10 @@ header .content-mobile {
   padding: 0.5rem 0;
 }
 
+/* Mobile screen */
 @media only screen and (max-width: 760px) {
 
+/* Left Column */
 .thesis-container-left {
   width: 100%;
   padding: 0 0 1.5rem 0;
@@ -468,6 +483,7 @@ header .content-mobile {
   display: none;
 }
 
+/* Right Column */
 .thesis-container-right {
   display: none;
 }
@@ -493,6 +509,7 @@ footer span {
   padding-right: 1rem;
 }
 
+/* Mobile Screen */
 @media only screen and (max-width: 760px) {
 
   footer {
